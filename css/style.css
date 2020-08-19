@@ -11,25 +11,23 @@ header {
     background-position: center;
 }
 
-ul {
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
-
+.bg-transparent {
+    background-color: transparent;
 }
 
-ul li {
-    display: inline-block;
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 }
 
 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 30px;
-    padding: 5px 20px;
     border: 1px solid transparent;
     transition: 0.6s ease;
-
 }
 
 ul li a:hover {
@@ -42,6 +40,7 @@ ul li.active a {
     background-color: black;
     color: white;
 }
+
 
 .main {
     max-width: 1200px;
