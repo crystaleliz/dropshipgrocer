@@ -37,7 +37,7 @@ ul li.active a{
 
 body{
     
-    background-image: url("/home/user/Desktop/WEBSITE/img/about5.jpg");
+    background-image: url(".img/about5.jpg");
    height: 100vh;
 	background-size: cover;
 	background-position: center;
