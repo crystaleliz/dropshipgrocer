@@ -75,7 +75,7 @@ h1 {
 
 .overlay,
 .content {
-    color: #fff;
+    color: black;
 
 }
 
@@ -84,5 +84,5 @@ p {
     font-size: 28px;
     font-weight: 100;
     text-align: center;
-    text-shadow: 5px 5px 3px black;
+    text-shadow: 5px 5px 3px white;
 }
