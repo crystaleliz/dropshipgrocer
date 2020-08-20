@@ -12,10 +12,9 @@
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 0.5rem;
-        padding-left: 0.5rem;
-        text-align: justify;
-        line-height: 2px;
+        padding-right: 2rem;
+        padding-left: 2rem;
+       
     }
 }
 
